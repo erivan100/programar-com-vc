@@ -12,4 +12,8 @@
 
 ### Contributors
 
-- [Ivan Vidal]: https://github.com/Ivan-Vidal
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/Ivan-Vidal"><img src="https://avatars2.githubusercontent.com/u/68352318?s=400&u=33f6491119efded534c45fff1d42657b60619e9e&v=4" width="100px;" alt=""/><br /><sub><b>Ivan Vidal</b></sub></a><br /><a href="https://github.com/all-contributors/all-contributors/commits?author=Ivan-Vidal" title="Documentation">📖</a></td>
+  </tr>
+</table>
