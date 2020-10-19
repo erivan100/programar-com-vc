@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "codar-pizzaria"
+    }
+  },
+  "defaultProject": "codar-pizzaria",
+  "cli": {
+    "analytics": "4afffe93-70af-4dbf-b376-9198f9bff9ae"
+  }
 }
