@@ -2,19 +2,18 @@
     font-family: 'Montserrat', sans-serif;
     display: flex;
     justify-content: space-between;
-    top: 16px;
-    left: 313px;
     width: 1381px;
     height: 1049px;
     background: #F5F5F5 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 20px;
     opacity: 1;
-    margin-left: 400px;
+    margin-left: 10%;
     
     
 }
 .esquerda {
+    align-items: center;
     margin: 6px;
     border: 1px solid #707070;
     opacity: 1;
@@ -30,7 +29,6 @@
     
 }
 .esquerda h1 {
-   
    font-size: 43px;
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 0px;
@@ -52,14 +50,17 @@
     justify-content: space-between;
 }
 .banner__button {
-  margin-left: 164.73px;
-  margin-bottom: 47.15px;
+   display: flex;
+   margin-bottom: 39px;
+   margin-right: 30px;
   
     }
     .banner__button a {
         text-decoration: none;
         color: white;
-        margin-bottom: 40px;
+        display: flex;
+        justify-content: space-evenly
+        ;
     }
 .banner__button--apple{
     width: 150px;
@@ -71,7 +72,7 @@
     outline: none;
     color: white;
     font-size: 15px;
-    margin-right: 10px;
+    margin-right: 17px;
 }
 
 .banner__button--google{
@@ -84,14 +85,15 @@
     outline: none;
     color: white;
     font-size: 15px;
-    margin-left: 11px;
+    margin-bottom: 2px;
+    
     }
 
 .img__apple {
     
-    width: 30px;
+    width: 33px;
     height: 30px;
-    padding-right:8.6px;
+
     
 }
 .img__google {
@@ -103,21 +105,9 @@
 .img__apple--small {
     width: 8px;
     height: 6px;
-
 }
-
 .img__apple--strong {
-   
-}
-
-.img__google--small {
-    width: 8px;
-    height: 6px;
-}
-
-.img__google--strong{
-  margin-bottom: 50px;
-    
+   display:flex;
 }
 .topo{
   text-align: center;
@@ -125,29 +115,31 @@
  
 }
 .titulo {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 23px;
+  font: normal normal bold 23px 'Montserrat', sans-serif;
   color: #B30733;
   text-transform: uppercase;
   opacity: 1;
   text-align: center;
-  border-bottom:5px solid #EF4C00;
   border-radius: 3px;
   opacity: 1;
- 
+  margin-bottom:27.5px;
+  line-height: 1.5;
   
+}
+.titulo h1{
+    font: normal normal bold 23px 'Montserrat', sans-serif;
+    margin-bottom: 11px;
+    margin-top: 68px;
 }
 .risco{
     width: 67px;
-  height: 5px;
-  background: #EF4C00 0% 0% no-repeat padding-box;
-  border-radius: 3px;
-  opacity: 1;
+    height: 5px;
+    background: #EF4C00 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    margin-top: 0;
 }
-
 .rabisco{
-    top: 159px;
-    left: 1071px;
     width: 589px;
     height: 3px;
     margin-right: 34.5px;
@@ -156,7 +148,7 @@
 
 .forms{
     width: 370px;
-   margin-left: 90px;
+   margin-left: 120px;
    margin-top: 30px;
 }
 .input-block input {
@@ -200,7 +192,7 @@
     background:#be3d02 0% 0% no-repeat padding-box;
 }
 .marca{
-    margin-top: 360px;
+    margin-top: 300px;
     margin-bottom: 20px;
     margin-left: 300px;
     margin-right: 34px;
@@ -210,5 +202,30 @@
     opacity: 1;
     font-weight: bolder;
 }
+@media (max-width: 1745px){
 
+    .container{
+        margin-left: 1%;
+        display: block;
+    }
+    .forms {
+        align-items: center;
+    }
+}
+
+@media (max-width:800px) {
+    .container{
+        margin: 0px;
+        width:90%;
+    }
+    .esquerda{
+        opacity: 0;
+    }
+    .forms{
+        width: 90%;
+        align-items: center;
+
+    }
+
+}
 
