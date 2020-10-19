@@ -7,12 +7,14 @@ import { NavbarComponent } from './core/navbar/navbar.component';
 /* import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component'; */
 import { RegisterComponent } from './register/register.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     RegisterComponent,
+    HomeComponent,
 /*     LoginComponent,
     HomeComponent */
   ],

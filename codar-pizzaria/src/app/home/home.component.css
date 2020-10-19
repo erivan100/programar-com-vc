@@ -1,0 +1,121 @@
+.banner__img {
+    top: 128px;
+    left: 434px;
+    width: 1053px;
+    height: 369px;
+    opacity: 0.96;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+
+h2 {
+    position: relative;
+    top: -206pt;
+    left: 35px;
+    width: 317px;
+    height: 57px;
+    font-size: 36px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    opacity: 1;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner__button {
+    position: relative;
+    top: -210px;
+    left: 10px;
+    }
+
+.banner__button--apple{
+    top: 352px;
+    left: 455px;
+    width: 150px;
+    height: 51px;
+    background: #B30733 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.banner__button--google{
+    top: 352px;
+    left: 455px;
+    width: 150px;
+    height: 51px;
+    background: #FF0043 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    }
+
+.img__apple {
+    width: 28px;
+    height: 27px;
+    right: 4px;
+    top: 10px;
+    position: relative;
+}
+.img__google {
+    width: 28px;
+    height: 26px;
+    right: 20px;
+    top: 10px;
+    position: relative;
+}
+
+.img__apple--small {
+    position: relative;
+    top: 5px;
+}
+
+.img__apple--strong {
+    position: relative;
+    top: -5px;
+    left: 5px;
+}
+
+.img__google--small {
+    position: relative;
+    top: 5px;
+    right: 15px;
+}
+
+.img__google--strong{
+    position: relative;
+    top: -5px;
+    left: 18px;
+}
+
+/* link que ainda não foi visitado */
+a:link {
+    color: inherit;
+ }
+ 
+ /* link que foi visitado */
+ a:visited {
+     color: inherit;
+ }
+ 
+ /* mouse over */
+ a:hover {
+     color: inherit;
+ }
+ 
+ /* link selecionado */
+ a:active {
+     color: inherit;
+ }
+
+ a{
+     text-decoration: none;
+ }
