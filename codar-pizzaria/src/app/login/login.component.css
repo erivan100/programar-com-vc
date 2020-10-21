@@ -1,5 +1,4 @@
 * {
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -10,7 +9,7 @@
     border: 1px solid #707070;
     border-radius: 20px;
     opacity: 1;
-    padding: 10px;
+   
     justify-content: space-between; 
 
 }
@@ -30,7 +29,7 @@
     background: #EF4C00 0% 0% no-repeat padding-box;
     border-radius: 3px;
     opacity: 1;
-    margin-left: 40%;
+    
 }
 .divisao{
     background-color: #2E4765;
@@ -48,8 +47,9 @@
     opacity: 1;
     margin-top: 60px;
     outline: none;
+    padding-left: 35px;
     
-    text-align: center;
+   
         
 }
 .input-block input:focus{
@@ -62,15 +62,7 @@
    margin-left: 150px;
 }
 .esquerda{
-    opacity: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    width: 50%;
-    background:transparent url('/assets/img/sahand-hoseini-BMVAYjPf6mU-unsplash@2x.png') 0% 0% no-repeat padding-box;
-    background-size: 100% 100%;
-    text-align: center;
-    align-items: center;
+    display: none;
 }
 
 .banner__button{
@@ -171,7 +163,15 @@ display:flex;
         justify-content: space-evenly;
     }
     .esquerda{
-        opacity: 1;
+       display: block;
+        display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    width: 50%;
+    background:transparent url('/assets/img/sahand-hoseini-BMVAYjPf6mU-unsplash@2x.png') 0% 0% no-repeat padding-box;
+    background-size: 100% 100%;
+    text-align: center;
+    align-items: center;
         
     }
     .banner__button{
