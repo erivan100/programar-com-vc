@@ -2,6 +2,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+  }
 .container{
     width: 100%;
     font-family: "Montserrat", sans-serif;
@@ -9,8 +15,9 @@
     border: 1px solid #707070;
     border-radius: 20px;
     opacity: 1;
-   padding: 10px;
+    padding: 10px;
     justify-content: space-between; 
+    height: 100%;
 
 }
 .titulo{
