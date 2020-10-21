@@ -9,7 +9,7 @@
     border: 1px solid #707070;
     border-radius: 20px;
     opacity: 1;
-   
+   padding: 10px;
     justify-content: space-between; 
 
 }
@@ -58,9 +58,7 @@
 .input-block input:valid{
     border: 1px solid #00ca5b;
 }
-.input-block small{
-   margin-left: 150px;
-}
+
 .esquerda{
     display: none;
 }
@@ -137,24 +135,29 @@ display:flex;
     opacity: 1;
     color: white;
     transition: all .3s ease-in;
-    margin-bottom: 200px;
+    margin-bottom: 10px;
     border: none;
 }
 .acesso:hover{
     background: #be3e02 0% 0% no-repeat padding-box;
 }
+.esquecer{
+    text-align: right;
+}
 .criar{
     text-align: center;
     color: bold  black;
 
+
 }
 .criar a{
-   
+   font-weight: bold;
     text-decoration: none;
     color: black;
 }
 .criar footer {
     margin-top: 100px;
+    font-weight: bold;
 }
 
 @media (min-width:680px){
